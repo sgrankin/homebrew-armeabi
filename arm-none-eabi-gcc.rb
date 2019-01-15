@@ -3,7 +3,6 @@ require 'formula'
 class ArmNoneEabiGcc <Formula
   homepage 'https://gcc.gnu.org'
   url 'http://ftpmirror.gnu.org/gcc/gcc-7.4.0/gcc-7.4.0.tar.xz'
-  mirror 'http://fr.mirror.babylon.network/gcc/releases/gcc-7.4.0/gcc-7.4.0.tar.xz'
   sha256 'eddde28d04f334aec1604456e536416549e9b1aa137fc69204e65eb0c009fe51'
 
   depends_on 'gmp'
